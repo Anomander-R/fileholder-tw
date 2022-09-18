@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
   <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,6 +11,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="/src/start.js" defer></script>
+    <script src="/src/index.js" defer></script>
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
     <title>FileHolder Service</title>
   </head>
@@ -20,10 +22,64 @@
 
       <!-- Dynamic Logo -->
       <div class="bg-logo-light-mode dark:bg-logo-dark-mode 
-                  bg-no-repeat h-20 w-48 mx-auto md:mx-0
+                  bg-no-repeat h-12 w-48 mx-auto md:mx-0
                   md:absolute.top-10.left-10">
 
       </div>
+      <!-- Menu -->
+      <div class="flex items-center justify-center space-x-4 md:space-x-10 md:absolute top-14 right-10">
+        <a href="#features" class="hover:text-accentCyan-600">Features</a>
+        <a href="#testimonials" class="hover:text-accentCyan-600">Testimonials</a> 
+        <!-- Dark/Light Mode Button -->
+        <button id="theme-toggle" class="btn-mode">
+          <!-- Dark SVG Icon -->
+          <svg
+            id="theme-toggle-dark-icon"
+            class="w-5 h-5 hidden"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+            ></path>
+          </svg>
+          
+          
+          <!-- Light SVG Icon -->
+          <svg
+            id="theme-toggle-light-icon"
+            class="w-5 h-5 hidden"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+      </div>
     </header>
+
+    <!-- Hero Section -->
+    <div class="section bg-curvy-light-mode dark:bg-curvy-dark-mode bg-no-repeat bg-contain bg-bottom" id="hero">
+      <!-- Hero Container -->
+      <div class="container mx-auto px-6 text-center md:pt-20 pb-52">
+        <img src="images/vases_dark.png" alt="" class="mx-auto" id="vases-dark">
+        <img src="images/vases_light.png" alt="" class="mx-auto" id="vases-light">
+        <h1 class="max-w-2xl mx-auto mb-10 text-3xl font-bold leading-normal mt-14 md:text-4xl">
+          All your files in one secure location, accessible anywhere.
+        </h1>
+        <p class="max-w-xm mx-auto mb-10 text-lg md:max-w-xl md:text-xl">
+          Fileholder stores all your most important files in 
+          one secure location. Access them wherever you need, share and collaborate with 
+          friends family, and co-workers
+        </p>
+        <button class="p-3 rounded-full w-52 bg-accentCyan-500 hover:scale-95 text-darkBlue-800 font-bold">Get started</button>
+      </div>
+    </div>
   </body>
 </html>
