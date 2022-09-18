@@ -42,6 +42,10 @@ Photos by Behrouz Sasani, Hadis Safari, Jurica Koletić, Ian Dooley & Thái An. 
   <a href="https://unsplash.com/@johnn21?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Thái An</a>
 
 The text is taken from NY Times, Vox, PC MAG, Learncourse Online & Institute for Management Development.
+
+## Colors
+
+Color Bucket: https://convertingcolors.com/color-bucket/view/1C2431181F2A0B1523202A3C65E2D9339ECCFF4242.html
   
 ## Deployment
 
