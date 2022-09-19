@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,20 +16,23 @@
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
     <title>FileHolder Service</title>
   </head>
+
   <body class="dark:bg-darkBlue-900 dark:text-white font-opensans">
+
     <!-- Header -->
     <header class="container mx-auto mt-10 px-6 text-center h40 md:h-20">
-
       <!-- Dynamic Logo -->
-      <div class="bg-logo-light-mode dark:bg-logo-dark-mode 
-                  bg-no-repeat h-12 w-48 mx-auto md:mx-0
-                  md:absolute.top-10.left-10">
-
-      </div>
+      <div
+        class="bg-logo-light-mode dark:bg-logo-dark-mode bg-no-repeat h-12 w-48 mx-auto md:mx-0 md:absolute.top-10.left-10"
+      ></div>
       <!-- Menu -->
-      <div class="flex items-center justify-center space-x-4 md:space-x-10 md:absolute top-14 right-10">
+      <div
+        class="flex items-center justify-center space-x-4 md:space-x-10 md:absolute top-14 right-10"
+      >
         <a href="#features" class="hover:text-accentCyan-600">Features</a>
-        <a href="#testimonials" class="hover:text-accentCyan-600">Testimonials</a> 
+        <a href="#testimonials" class="hover:text-accentCyan-600"
+          >Testimonials</a
+        >
         <!-- Dark/Light Mode Button -->
         <button id="theme-toggle" class="btn-mode">
           <!-- Dark SVG Icon -->
@@ -44,8 +47,7 @@
               d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
             ></path>
           </svg>
-          
-          
+
           <!-- Light SVG Icon -->
           <svg
             id="theme-toggle-light-icon"
@@ -65,130 +67,154 @@
     </header>
 
     <!-- Hero Section -->
-    <section  class="bg-curvy-light-mode dark:bg-curvy-dark-mode bg-no-repeat bg-contain bg-bottom" id="hero">
+    <section
+      class="bg-curvy-light-mode dark:bg-curvy-dark-mode bg-no-repeat bg-contain bg-bottom"
+      id="hero"
+    >
       <!-- Hero Container -->
       <div class="container mx-auto px-6 text-center md:pt-20 pb-52">
-        <img src="images/vases_dark.png" alt="" class="mx-auto" id="vases-dark">
-        <img src="images/vases_light.png" alt="" class="mx-auto" id="vases-light">
-        <h1 class="max-w-2xl mx-auto mb-10 text-3xl font-bold leading-normal mt-14 md:text-4xl">
+        <img
+          src="images/vases_dark.png"
+          alt=""
+          class="mx-auto"
+          id="vases-dark"
+        />
+        <img
+          src="images/vases_light.png"
+          alt=""
+          class="mx-auto"
+          id="vases-light"
+        />
+        <h1
+          class="max-w-2xl mx-auto mb-10 text-3xl font-bold 
+                 leading-normal mt-14 md:text-4xl"
+        >
           All your files in one secure location, accessible anywhere.
         </h1>
         <p class="max-w-xm mx-auto mb-10 text-lg md:max-w-xl md:text-xl">
-          Fileholder stores all your most important files in 
-          one secure location. Access them wherever you need, share and collaborate with 
+          Fileholder stores all your most important files in one secure
+          location. Access them wherever you need, share and collaborate with
           friends family, and co-workers
         </p>
-        <button class="p-3 rounded-full w-52 bg-accentCyan-500 hover:scale-95 text-darkBlue-800 font-bold">Get started</button>
+        <button
+          class="p-3 rounded-full w-52 bg-accentCyan-500 
+                  hover:scale-95 text-darkBlue-800 font-bold"
+        >
+          Get started
+        </button>
       </div>
     </section>
-    <!-- Features Section -->
 
+    <!-- Features Section -->
     <section id="features" class="pt-12 bg-gray-50 dark:bg-darkBlue1-900">
-      
       <!-- Features Container -->
       <div class="container mx-auto px-6 pb-32">
         <!-- First Row -->
-        <div class="flex flex-col items-center justify-center space-y-24 text-center md:flex-row md:space-y-0">
-
+        <div
+          class="flex flex-col items-center justify-center space-y-24 text-center md:flex-row md:space-y-0"
+        >
           <!-- Item 1 -->
           <div class="flex flex-col items-center space-y-2 md w-1/2">
             <div class="flex items-center justify-center h-24 mb-6">
-              <img src="/images/icon-access-anywhere.svg" alt="">
+              <img src="/images/icon-access-anywhere.svg" alt="" />
             </div>
             <h3 class="text-xl font-bold">Your files, not ours</h3>
             <p class="max-w-sm">
-              The ability to use smartphone, tablet, or computer 
-              to access your account means your files follow you evrywhere.
+              The ability to use smartphone, tablet, or computer to access your
+              account means your files follow you evrywhere.
             </p>
-          </div> <!-- End of Item 1 -->
-
+          </div>
+          <!-- End of Item 1 -->
           <!-- Item 2 -->
           <div class="flex flex-col items-center space-y-2 md w-1/2">
             <div class="flex items-center justify-center h-24 mb-6">
-              <img src="/images/icon-security.svg" alt="">
+              <img src="/images/icon-security.svg" alt="" />
             </div>
             <h3 class="text-xl font-bold">Security you can trust</h3>
             <p class="max-w-sm">
-              2-factor authentication and user-controlled encription 
-              are just a couple of the security features 
-              we allow to help secure your files.
+              2-factor authentication and user-controlled encription are just a
+              couple of the security features we allow to help secure your
+              files.
             </p>
-          </div> <!-- End of Item 2 -->
-
-
-        </div> <!-- End of First Row -->
-
+          </div>
+          <!-- End of Item 2 -->
+        </div>
+        <!-- End of First Row -->
 
         <!-- Second Row -->
-        <div class="flex flex-col items-center justify-center mt-28 space-y-24 text-center md:flex-row md:space-y-0">
-
+        <div
+          class="flex flex-col items-center justify-center mt-28 space-y-24 text-center md:flex-row md:space-y-0"
+        >
           <!-- Item 3 -->
           <div class="flex flex-col items-center space-y-2 md w-1/2">
             <div class="flex items-center justify-center h-24 mb-6">
-              <img src="/images/icon-collaboration.svg" alt="">
+              <img src="/images/icon-collaboration.svg" alt="" />
             </div>
             <h3 class="text-xl font-bold">All your files in one place</h3>
             <p class="max-w-sm">
-              Store computer backups, photo libraries, thousands 
-              of documents—all your files, in the same place.
+              Store computer backups, photo libraries, thousands of
+              documents—all your files, in the same place.
             </p>
-          </div> <!-- End of Item 3 -->
-
+          </div>
+          <!-- End of Item 3 -->
           <!-- Item 4 -->
           <div class="flex flex-col items-center space-y-2 md w-1/2">
             <div class="flex items-center justify-center h-24 mb-6">
-              <img src="/images/icon-any-file.svg" alt="">
+              <img src="/images/icon-any-file.svg" alt="" />
             </div>
             <h3 class="text-xl font-bold">One-of-a-kind functionality</h3>
             <p class="max-w-sm">
-              Store files as large as 2 TB each, sync at light speed, 
-              and allow anyone to preview nearly 200 file types.
+              Store files as large as 2 TB each, sync at light speed, and allow
+              anyone to preview nearly 200 file types.
             </p>
-          </div> <!-- End of Item 4 -->
-
-
-        </div> <!-- End of Second Row -->
-
+          </div>
+          <!-- End of Item 4 -->
+        </div>
+        <!-- End of Second Row -->
       </div>
-
     </section>
 
     <!-- Productive Section -->
     <section id="productive" class="bg-white dark:bg-darkBlue-800">
       <!-- Productive Container -->
-      <div class="container flex flex-col items-center mx-auto px-6 pt-24 pb-32 md:flex-row md:space-x-16">
+      <div
+        class="container flex flex-col items-center mx-auto px-6 pt-24 pb-32 md:flex-row md:space-x-16"
+      >
         <!-- Image -->
         <div class="md:w-1/2">
-          <img src="/images/illustration-stay-productive.png" alt="" class="mb-10">
+          <img
+            src="/images/illustration-stay-productive.png"
+            alt=""
+            class="mb-10"
+          />
         </div>
-          
         <!-- Content -->
-
         <div class="flex flex-col items-start md:w-1/2">
           <div class="flex flex-col space-y-5">
             <h4 class="max-w-md text-2xl font-bold md:text-4xl">
               Stay productive, wherever you are
             </h4>
             <p class="text-md md:text-lg">
-                Never let the location be an issue when accessing your files. 
-                Fileholder has you covered for all of your file storage needs.
+              Never let the location be an issue when accessing your files.
+              Fileholder has you covered for all of your file storage needs.
             </p>
             <p class="text-md md:text-lg">
-              Securely share files and folders with friends, family and 
+              Securely share files and folders with friends, family and
               collegues for live collaboration. No email attachments required.
             </p>
           </div>
           <!-- Link -->
           <div class="block mt-4">
-            <a href="#" class="border-b border-accentCyan-700 text-accentCyan-700">See this repo on Github 
-              <img src="images/icon-arrow.svg" alt="" class="inline pb-2">
+            <a
+              href="#"
+              class="border-b border-accentCyan-700 text-accentCyan-700"
+              >See this repo on Github
+              <img src="images/icon-arrow.svg" alt="" class="inline pb-2" />
             </a>
           </div>
         </div>
       </div>
     </section>
-
-
 
     <!-- Testimonials Section-->
     <section id="testimonials" class="bg-gray-50 dark:bg-darkBlue-800">
@@ -196,61 +222,143 @@
 
       <div class="container mx-auto px-6 pt-12 pb-80 md:pb-96">
         <!-- Boxes Container -->
-        <div class="relative flex flex-col w-full space-y-6 md:flex-row md:space-y-0 md:space-x-12">
+        <div
+          class="relative flex flex-col w-full space-y-6 md:flex-row md:space-y-0 md:space-x-12"
+        >
           <!-- Quotes Image -->
-          <img src="/images/bg-quotes.png" alt="" class="absolute left-1 -top-2 w-10 md:-top-16 md:w-20">
+          <img
+            src="/images/bg-quotes.png"
+            alt=""
+            class="absolute left-1 -top-2 w-10 md:-top-16 md:w-20"
+          />
           <!-- Box 1 -->
-            <div class="flex flex-col p-10 space-y-6 rounded-lg md:w-1/3 bg-gray-100 dark:bg-darkBlue3-900">
-              <p class="text-sm leading-5 md:text-lg">
-              Fileholder has improved our team productivity by an order of 
-              magnitude. Since making the switch our team has become a well-oiled 
-              collaboration machine.</p>
-              <div class="flex justify-start items-end space-x-4">
-
-                <img src="/images/pic06_michaell_buillerey.jpg" alt="" class="rounded-t-full rounded-bl-full w-10 h-10">
-                <div>
-                  <a href="https://unsplash.com/@mbcaptures" class="text-sm font-semibold hover:text-gray-400" target=”_blank”>Michael Buillerey</a>
-                <p class="text-xs font-extralight">Just a guy who loves taking photographer</p>
-                </div>
+          <div
+            class="flex flex-col p-10 space-y-6 rounded-lg md:w-1/3 bg-gray-100 dark:bg-darkBlue3-900"
+          >
+            <p class="text-sm leading-5 md:text-lg">
+              Fileholder has improved our team productivity by an order of
+              magnitude. Since making the switch our team has become a
+              well-oiled collaboration machine.
+            </p>
+            <div class="flex justify-start items-end space-x-4">
+              <img
+                src="/images/pic06_michaell_buillerey.jpg"
+                alt=""
+                class="rounded-t-full rounded-bl-full w-10 h-10"
+              />
+              <div>
+                <a
+                  href="https://unsplash.com/@mbcaptures"
+                  class="text-sm font-semibold hover:text-gray-400"
+                  target="”_blank”"
+                  >Michael Buillerey</a
+                >
+                <p class="text-xs font-extralight">
+                  Just a guy who loves taking photographer
+                </p>
               </div>
-            </div> <!-- End of Box 1 -->
+            </div>
+          </div>
+          <!-- End of Box 1 -->
 
-            <!-- Box 2 -->
-            <div class="flex flex-col p-10 space-y-6 rounded-lg md:w-1/3 bg-gray-100 dark:bg-darkBlue3-900">
-              <p class="text-sm leading-5 md:text-lg">
-                We decided to move to Fileholder because it was very easy to use, it was widely accepted by our users, and it gave me the security features that I needed.</p>
-              <div class="flex justify-start items-end space-x-4">
-
-                <img src="/images/pic07_prince_akachi.jpg" alt="" class="rounded-t-full rounded-bl-full w-10 h-10">
-                <div>
-                  <a href="https://unsplash.com/@princearkman" class="text-sm font-semibold hover:text-gray-400" target=”_blank”>Prince Akachi</a>
-                <p class="text-xs font-extralight">Art Lover, Story Teller. </p>
-                </div>
+          <!-- Box 2 -->
+          <div
+            class="flex flex-col p-10 space-y-6 rounded-lg md:w-1/3 
+                 bg-gray-100 dark:bg-darkBlue3-900"
+          >
+            <p class="text-sm leading-5 md:text-lg">
+              We decided to move to Fileholder because it was very easy to use,
+              it was widely accepted by our users, and it gave me the security
+              features that I needed.
+            </p>
+            <div class="flex justify-start items-end space-x-4">
+              <img
+                src="/images/pic07_prince_akachi.jpg"
+                alt=""
+                class="rounded-t-full rounded-bl-full w-10 h-10"
+              />
+              <div>
+                <a
+                  href="https://unsplash.com/@princearkman"
+                  class="text-sm font-semibold hover:text-gray-400"
+                  target="”_blank”"
+                  >Prince Akachi</a
+                >
+                <p class="text-xs font-extralight">Art Lover, Story Teller.</p>
               </div>
-            </div> <!-- End of Box 2 -->
+            </div>
+          </div>
+          <!-- End of Box 2 -->
 
-            <!-- Box 3 -->
-            <div class="flex flex-col p-10 space-y-6 rounded-lg md:w-1/3 bg-gray-100 dark:bg-darkBlue3-900">
-              <p class="text-sm leading-5 md:text-lg">
-                We have hundreds of variations of packaging. The stakes are really big for us, and we have complete and utter trust in Fileholder.</p>
-              <div class="flex justify-start items-end space-x-4">
-
-                <img src="/images/pic08_nonsap_visuals.jpg" alt="" class="rounded-t-full rounded-bl-full w-10 h-10">
-                <div>
-                <a href="https://unsplash.com/@nonsapvisuals" class="text-sm font-semibold hover:text-gray-400" target=”_blank”>Nondas Sapidis</a>
-                <p class="text-xs font-extralight">NonSap Visuals, the creative initiative </p>
-                </div>
+          <!-- Box 3 -->
+          <div
+            class="flex flex-col p-10 space-y-6 rounded-lg md:w-1/3 
+                 bg-gray-100 dark:bg-darkBlue3-900"
+          >
+            <p class="text-sm leading-5 md:text-lg">
+              We have hundreds of variations of packaging. The stakes are really
+              big for us, and we have complete and utter trust in Fileholder.
+            </p>
+            <div class="flex justify-start items-end space-x-4">
+              <img
+                src="/images/pic08_nonsap_visuals.jpg"
+                alt=""
+                class="rounded-t-full rounded-bl-full w-10 h-10"
+              />
+              <div>
+                <a
+                  href="https://unsplash.com/@nonsapvisuals"
+                  class="text-sm font-semibold hover:text-gray-400"
+                  target="”_blank”"
+                  >Nondas Sapidis</a
+                >
+                <p class="text-xs font-extralight">
+                  NonSap Visuals, the creative initiative
+                </p>
               </div>
-            </div> <!-- End of Box 3 -->
-
+            </div>
+          </div>
+          <!-- End of Box 3 -->
         </div>
       </div>
-    </section> <!-- End of Testimonials Section-->
+    </section>
+    <!-- End of Testimonials Section-->
+
+    <!-- Early Access Section -->
+    <section id="early-access" class="relative px-6 dark:bg-darkBlue2-900 md:px-0">
+
+      <div class="relative -top-40 max-w-4xl mx-auto 
+                  p-10 px-6 space-y-6 text-center rounded-lg 
+                  bg-gray-200 dark:bg-darkBlue1-900 md:px-16">
+        <h5 class="text-2xl font-bold">
+          Get early access today
+        </h5>
+        <p class="text-sm">
+          It only takes a minute to sign up and our free starter tier
+          is extremely generous. If you have any questions, our support 
+          team would be happy to help you.
+        </p>
+        <!-- Input & Button Container -->
+        <div class="flex flex-col items-start space-y-6 
+                    md:flex-row md:space-y-0 md:space-x-4">
+          <div class="w-full md:flex-1">
+            <input 
+              type="text" 
+              class="w-full px-10 py-3 rounded-full 
+                     focus:outline-none text-gray-500"
+              placeholder="email@example.com"/>
+          </div>
+          <button class="w-full p-3 px-6 rounded-full bg-accentCyan-600 md:w-56 hover:scale-95 duration-200">
+            Get started For Free
+          </button>
+        </div>
+      </div>
+
+
+    </section> <!-- End of Early Access Section -->
+
 
 
     
-
-
-
   </body>
 </html>
