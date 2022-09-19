@@ -46,4 +46,4 @@ Color Bucket: https://convertingcolors.com/color-bucket/view/1C2431181F2A0B15232
   
 ## Deployment
 
-Link: https://jovial-taiyaki-fc5a7f.netlify.app/
+Link: https://eloquent-toffee-eaacef.netlify.app/
