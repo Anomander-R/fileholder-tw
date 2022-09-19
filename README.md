@@ -6,7 +6,7 @@ Exercise in using Tailwind CSS utility classes 6/7. Dropbox-like website.
 ## Installation
 
 Download or copy from the github, then run `npm install`
-You can use Live server to 
+You can use link bellow  
 
 ## DevDependencies 
 
