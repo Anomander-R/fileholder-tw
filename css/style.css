@@ -706,20 +706,8 @@ video {
   width: 2.5rem;
 }
 
-.w-6 {
-  width: 1.5rem;
-}
-
 .w-4 {
   width: 1rem;
-}
-
-.w-16 {
-  width: 4rem;
-}
-
-.w-24 {
-  width: 6rem;
 }
 
 .w-36 {
@@ -812,12 +800,6 @@ video {
   margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
 }
 
-.space-y-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
-}
-
 .space-y-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
@@ -874,14 +856,9 @@ video {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
-.bg-gray-200 {
+.bg-gray-300 {
   --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
-.bg-accentCyan-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(8 43 40 / var(--tw-bg-opacity));
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
 .bg-accentCyan-600 {
@@ -897,6 +874,16 @@ video {
 .bg-darkBlue-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(125 146 181 / var(--tw-bg-opacity));
+}
+
+.bg-darkBlue-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(19 24 32 / var(--tw-bg-opacity));
+}
+
+.bg-darkBlue-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 36 49 / var(--tw-bg-opacity));
 }
 
 .bg-logo-light-mode {
@@ -979,10 +966,6 @@ video {
   padding-bottom: 2.5rem;
 }
 
-.pt-8 {
-  padding-top: 2rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1061,14 +1044,6 @@ video {
   color: rgb(249 250 251 / var(--tw-text-opacity));
 }
 
-.delay-200 {
-  transition-delay: 200ms;
-}
-
-.delay-700 {
-  transition-delay: 700ms;
-}
-
 .duration-200 {
   transition-duration: 200ms;
 }
@@ -1110,6 +1085,10 @@ video {
 .dark .btn-mode:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(55 65 81 / var(--tw-ring-opacity));
+}
+
+.ficon:hover {
+  filter: invert(80%) sepia(37%) saturate(7048%) hue-rotate(132deg) brightness(105%) contrast(104%)
 }
 
 .hover\:scale-95:hover {
@@ -1156,11 +1135,6 @@ video {
 .dark .dark\:bg-darkBlue2-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(11 21 35 / var(--tw-bg-opacity));
-}
-
-.dark .dark\:bg-darkBlue2-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(139 172 218 / var(--tw-bg-opacity));
 }
 
 .dark .dark\:bg-logo-dark-mode {

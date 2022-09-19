@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <script src="/src/start.js" defer></script>
     <script src="/src/index.js" defer></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
     <title>FileHolder Service</title>
   </head>
@@ -73,7 +74,7 @@
     >
       <!-- Hero Container -->
       <div class="container mx-auto px-6 text-center md:pt-20 pb-52">
-        <img
+        <!-- <img
           src="images/vases_dark.png"
           alt=""
           class="mx-auto"
@@ -84,7 +85,13 @@
           alt=""
           class="mx-auto"
           id="vases-light"
-        />
+        /> -->
+        <lottie-player src="/images/intro_lottie.json"  
+            background="transparent"  
+            speed="1"  
+            class="mx-auto"
+            style="width: 300px; height: 300px;" loop autoplay>
+        </lottie-player>
         <h1
           class="max-w-2xl mx-auto mb-10 text-3xl font-bold 
                  leading-normal mt-14 md:text-4xl"
@@ -329,7 +336,7 @@
 
       <div class="relative -top-40 max-w-4xl mx-auto 
                   p-10 px-6 space-y-6 text-center rounded-lg 
-                  bg-gray-200 dark:bg-darkBlue1-900 md:px-16">
+                  bg-gray-300 dark:bg-darkBlue1-900 md:px-16">
         <h5 class="text-2xl font-bold">
           Get early access today
         </h5>
@@ -404,17 +411,17 @@
           <div class="flex justify-center pb-10 space-x-3">
             <div>
               <a href="#">
-                <img src="/images/facebook.svg" alt="" class="p-2 bg-darkBlue-400 rounded-full ficon">
+                <img src="/images/facebook.svg" alt="" class="p-2 bg-darkBlue-800 rounded-full ficon">
               </a>
             </div>
             <div>
               <a href="#">
-                <img src="/images/twitter.svg" alt="" class="p-2 bg-darkBlue-400 rounded-full ficon">
+                <img src="/images/twitter.svg" alt="" class="p-2 bg-darkBlue-800 rounded-full ficon">
               </a>
             </div>
             <div>
               <a href="#">
-                <img src="/images/instagram.svg" alt="" class="p-2 bg-darkBlue-400 rounded-full ficon">
+                <img src="/images/instagram.svg" alt="" class="p-2 bg-darkBlue-800 rounded-full ficon">
               </a>
             </div>
           </div>
