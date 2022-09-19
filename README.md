@@ -1,15 +1,15 @@
 # FileHolder Landing Page
 Exercise in using Tailwind CSS utility classes 6/7. Dropbox-like website.
 
-![fileholder_cover_git](https://user-images.githubusercontent.com/90348779/190877621-15d1ff76-10a9-4982-8e80-95f5ca4761b0.png)
+![fileholder_cover_new](https://user-images.githubusercontent.com/90348779/191095932-d832540f-6a86-4c25-a04d-efaabf49899d.png)
 
 ## Installation
 
 Download or copy from the github, then run `npm install`
+You can use Live server to 
 
 ## DevDependencies 
 
-    "@tailwindcss/line-clamp": "^0.4.2",
     "tailwindcss": "^3.1.8"
 
 ## Structure 
@@ -23,25 +23,22 @@ Download or copy from the github, then run `npm install`
   |_ [css]  
   |   |___style.css  
   |_ [src]  
-  |   |___index.js  
-  | 
-  |_ [images](9 images)  
+  |   |___start.js  
+  |   |___index.js 
+  |_ [images](25+ images)  
 
 ## Credits
 
-Photos by Behrouz Sasani, Hadis Safari, Jurica Koletić, Ian Dooley & Thái An. Photos are taken from https://unsplash.com/.
+Photos by Michael Buillerey, Prince Akachi & Nonsap Visuals. Photos are taken from https://unsplash.com/.
 
-  <a href="https://unsplash.com/@behrouzsasani?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Behrouz Sasani</a>
+  <a href="https://unsplash.com/@mbcaptures?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michael Buillerey</a>
 
-  <a href="https://unsplash.com/@ihadissafari?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hadis Safari</a>
+  <a href="https://unsplash.com/@princearkman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Prince Akachi</a>
 
-  <a href="https://unsplash.com/es/@juricakoletic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jurica Koletić</a>
+  <a href="https://unsplash.com/@nonsapvisuals?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nonsap Visuals</a>
 
-  <a href="https://unsplash.com/@sadswim?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ian Dooley</a>
 
-  <a href="https://unsplash.com/@johnn21?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Thái An</a>
-
-The text is taken from NY Times, Vox, PC MAG, Learncourse Online & Institute for Management Development.
+The lottie file is taken from lottiefiles.com (<a href="https://lottiefiles.com/motionpixels">Motion Pixel Studio</a>).
 
 ## Colors
 
